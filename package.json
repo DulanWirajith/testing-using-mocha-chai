@@ -1,0 +1,23 @@
+{
+  "name": "testing-using-mocha-chai",
+  "version": "1.0.0",
+  "description": "this is a pet project using for understand api testing using mocha and chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "test:watch": "npx mocha test/test-basic.js --watch --grep 'should default api up and running'",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
